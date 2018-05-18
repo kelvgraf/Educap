@@ -5,64 +5,81 @@
 
 body{
 	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
 }
-.container-menu{
+.container__menu__educap{
+	display: flex;
+    flex-flow: column wrap; 
+    width: 100%;
+    margin:1%;	
+}
+.menu__educap{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-.imagem2-container-menu{
-	width: 33%;
-	position: absolute;
-	top: 25%;
-	right:63%;
-}
-.imagem1-container-menu{
-	width: 25%;
-	margin-left: 70%;
-}
-.menu{
+	padding: 5%;
 	position: fixed;
-	margin-top: -9rem; 
+	margin-left: 35%;
 }
-.menu-lista{
+.menu__educap__item{
+	margin: 4%;
+	color: rgb(129, 132, 131);
+	text-decoration: none;
+	font-size: 1.3em;
+}
+.menu__educap__item__modificado{
+	border: solid 1px rgb(129, 132, 131); 
+	padding: 2px;
+
+}
+
+.coanteiner___educap__inicio{
 	display: flex;
-	margin: 24px;
+	justify-content: space-between;
 }
 
-.menu-item{
-	font-size: 1.30em;
-	color:rgb(129,132,131);
-	margin: 3%;
-	list-style: none;
-}
+.container1__educap__logo{
+	width: 34%;
+	height: 110vh;
+	display: flex;
+	justify-content: center;
 
-.menu-item-modificador{
-	font-size: 20px;
-	color:rgb(129,132,131);
-	margin: 3%;
-	border: solid 1px;
+
 }
-.container-logo{
-	position: absolute;
+.container2__educap__logo{
+	width: 34%;
+	height: 110vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
-.logo-educap{
-	width: 30%;
+.container3__educap__logo{
+	width: 25%;
+	margin-bottom: 20%;
+
 }
-.logo-educap-parag{
-	width: 15%;
-	font-size: 1em;
-	color: rgb(158,158,158);
-	font-style: normal;
-	text-align: left;
-	line-height: 19.2px,
-	letter-spacing: 0em;
-	border: solid 1px;
-	padding: 1.50%;
+.logo__educap1{
+	width: 100%;
 }
+
+.logo__educap2{
+	width: 100%;
+}
+
+.logo__educap3{
+	width: 100%;
+}
+.logo__educap3__parag{
+	border:solid 1px #000;
+	padding: 5%;
+	width: 65%;
+	position: relative;
+	bottom: 40%;
+}
+
+
 
 
 /*.logo1{
