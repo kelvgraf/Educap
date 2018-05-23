@@ -77,60 +77,15 @@ body{
 	width: 65%;
 	position: relative;
 	bottom: 40%;
-}
-
-
-
-
-/*.logo1{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-left: 20px;
-}
-
-.div-introdução{
-	display: flex;
-	justify-content: flex-end;
-	margin: 40px;
-	margin-top: 169px;
-}
-
-.introdução{
-	font-family:;
 	font-size: 16px;
 	color: rgb(158,158,158);
 	font-style: normal;
 	text-align: left;
 	line-height: 19.2px,
 	letter-spacing: 0em;
-	width: 20%;
-	margin: 10px;
 }
 
-.linha{
-	color: black;
-	border: dashed;
-	border-top-width: thin;
-	border-right: none;
-	border-left: none;
-	border-bottom: none;
-	color: rgb(160,160,160);
-}
-
-.logo1{
-	display: flex;
-	justify-content: center;
-	margin-top: 169px;
-}
-
-.logo{
-	width: 100%;
-	height: 36%;
-}
-
-.sobre{
-	height: : 100vh;
+.sobre1{
 }
 
 .projetos{
@@ -139,10 +94,20 @@ body{
 	flex-direction: column;
 	align-items: center;
 }
+.caixa-img-crianças{
+	display: flex;
+	justify-content: center;
+	
+}
 
 .crianças{
-	height:32%;
-	width: 43%;
+	height:18%;
+	width: 40%;
+	border-width: thick;
+	border-style: solid;
+	border-color: gold;
+	margin:1%;
+	padding: 5%;
 }
 
 .historia{
@@ -245,16 +210,21 @@ h2{
 	margin: 10px;
 	height: 100vh;
 }
+.informe{
+	width: 100%;
+	height: 100%;
+	margin: 5%;
+}
 
 .doc{
-	width: 360px;
-	height: 210px;
+	width: 30%;
+	height: 41vh;
 	margin: 20px;
 }
 .jornal{
 	height: 80px;
 	width: 104px;
-	margin: 20px;
+	/*margin: 20px;*/
 }
 
 .paragrafo-jornal{
@@ -267,10 +237,11 @@ h2{
 }
 
 .noticias{
-	width: 100vw;
+	width: 30%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 3%;
 }
 
 .paragrafo-comentario{
@@ -440,4 +411,4 @@ h2{
 	border-color: gold;
 	padding: 5px;
 	margin:1%;
-}*/
+}
